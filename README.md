@@ -32,6 +32,14 @@ A simple SQLite clone implemented in Java as a way to experiment with database c
 Welcome to the SQLite Shell. Type `'sql'` to enter SQL mode, `'exit'` to quit.  
 
 ```sh
+  _____  _    _ __  __ ____     _____  ____  _      
+ |  __ \| |  | |  \/  |  _ \   / ____|/ __ \| |     
+ | |  | | |  | | \  / | |_) | | (___ | |  | | |     
+ | |  | | |  | | |\/| |  _ <   \___ \| |  | | |     
+ | |__| | |__| | |  | | |_) |  ____) | |__| | |____ 
+ |_____/ \____/|_|  |_|____/  |_____/ \___\_\______|
+                                                    
+    
 > sql  
 Entered SQL mode. Type your SQL queries or 'exit' to leave.
 SQL> CREATE TABLE USER ( ID: INT , NAME: STRING );
