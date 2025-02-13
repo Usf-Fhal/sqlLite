@@ -13,18 +13,19 @@ A simple SQLite clone implemented in Java as a way to experiment with database c
 - **Data persistence** to retain information between sessions.  
 
 ## 📂 Project Structure  
-├── src/ │ ├── Banner/ # ASCII Art Banner
-│ ├── DataBase/MetaData/ # Handles table and column metadata
-│ ├── db/ # Stores the database file (not persistent yet)
-│ ├── Exceptions/ # Custom exception handling
-│ ├── ExecutionEngine/ # SQL execution logic
-│ ├── Parser/ # SQL query parsing
-│ ├── Serialization/ # Data storage and retrieval
-│ ├── StorageEngine/ # Low-level data management
-│ ├── Utils/ # Utility functions
-│ └── SQLiteShell.java # Command-line shell for SQL execution
-├── database.db # Sample database file
-└── README.md # Project documentation
+📦 DUMB SQL  
+├── 📂 src/  
+│   ├── 📂 Banner/            # ASCII Art Banner  
+│   ├── 📂 DataBase/MetaData/ # Handles table and column metadata  
+│   ├── 📂 Exceptions/        # Custom exception handling  
+│   ├── 📂 ExecutionEngine/   # SQL execution logic   
+│   ├── 📂 Parser/            # SQL query parsing  
+│   ├── 📂 Serialization/     # Data storage and retrieval  
+│   ├── 📂 StorageEngine/     # Low-level data management  
+│   ├── 📂 Utils/             # Utility functions  
+│   └── 📄 SQLiteShell.java   # Entry Point  
+└── 📄 README.md              # Project documentation  
+  
 
 
 ## 📝 Simple Test Case  
